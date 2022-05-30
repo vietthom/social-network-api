@@ -1,7 +1,7 @@
 const { Schema, model } = require('mongoose');
 const { isEmail } = require('validator');
 
-const UserSchema = newSchema({
+const UserSchema = new Schema({
     username: {
         type: String,
         unique: true,
