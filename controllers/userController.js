@@ -51,6 +51,7 @@ module.exports = {
                     runValidators: true
                 }
             );
+            res.json(updatedUser);
         } catch (error) {
             res.json(error)
         }

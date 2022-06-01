@@ -10,8 +10,8 @@ const {
 } = require("../../../controllers/userController");
 
 router.route("/")
-  .post(createUser)
-  .get(getAllUsers);
+.post(createUser)
+.get(getAllUsers);
 
 router
   .route("/:userId")
